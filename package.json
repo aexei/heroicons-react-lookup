@@ -1,17 +1,19 @@
 {
-  "name": "heroicons-lookup",
-  "version": "2.0.0",
-  "description": "A utility library to lookup TailwindCSS Heroicons by their name.",
+  "name": "heroicons-react-lookup",
+  "version": "1.0.0",
+  "description": "A utility library for react projects to lookup TailwindCSS Heroicons by their name.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "prepublishOnly": "npm run build",
     "lint": "eslint src",
+    "generate": "node ./scripts/generate.js",
+    "prebuild": "npm run generate",
     "build": "tsc --project tsconfig.json && tsconfig-replace-paths --project tsconfig.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/naquiroz/heroicons-lookup.git"
+    "url": "git+https://github.com/aexei/heroicons-react-lookup.git"
   },
   "keywords": [
     "tailwindcss",
@@ -20,12 +22,12 @@
     "typescript",
     "react"
   ],
-  "author": "Nicolas Quiroz <nicolasquirozpa@gmail.com>",
+  "author": "Alexander Heinrich <alexander.heinrich@apperon.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/naquiroz/heroicons-lookup/issues"
+    "url": "https://github.com/aexei/heroicons-react-lookup/issues"
   },
-  "homepage": "https://github.com/naquiroz/heroicons-lookup#readme",
+  "homepage": "https://github.com/aexei/heroicons-react-lookup#readme",
   "devDependencies": {
     "@types/react": "^17.0.38",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
@@ -39,12 +41,13 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "glob": "^10.3.3",
     "prettier": "^2.5.1",
     "tsconfig-replace-paths": "^0.0.11",
     "typescript": "^4.5.5"
   },
   "dependencies": {
-    "@heroicons/react": "^2.0.13",
+    "@heroicons/react": "^2.0.18",
     "react": "^17.0.2"
   }
 }

@@ -1,4 +1,4 @@
-# Contributing to heroicons-lookup
+# Contributing to heroicons-react-lookup
 
 👍🎉 First off, thanks for taking the time to contribute! 🎉👍
 
@@ -6,7 +6,7 @@ When contributing to this repository, please first discuss the change you wish t
 
 ## Table of Contents
 
-- [Contributing to heroicons-lookup](#contributing-to-heroicons-lookup)
+- [Contributing to heroicons-react-lookup](#contributing-to-heroicons-react-lookup)
   - [Table of Contents](#table-of-contents)
   - [Setting Up the project locally](#setting-up-the-project-locally)
   - [Submitting a Pull Request](#submitting-a-pull-request)
@@ -20,10 +20,10 @@ To install the project you need to have `node` and `npm`
 
     ```sh
     # Clone your fork
-    git clone https://github.com/<your-username>/heroicons-lookup.git
+    git clone https://github.com/<your-username>/heroicons-react-lookup.git
 
     # Navigate to the newly cloned directory
-    cd heroicons-lookup
+    cd heroicons-react-lookup
     ```
 
 2.  Your environment needs to be running `node` version >= 9.3.0 and `npm` version >= 5.5.0.
@@ -38,7 +38,7 @@ To install the project you need to have `node` and `npm`
 > pull requests from branches on your fork. To do this, run:
 >
 > ```sh
-> git remote add upstream https://github.com/kefranabg/heroicons-lookup.git
+> git remote add upstream https://github.com/kefranabg/heroicons-react-lookup.git
 > git fetch upstream
 > git branch --set-upstream-to=upstream/main main
 > ```

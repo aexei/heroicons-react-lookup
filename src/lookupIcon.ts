@@ -17,7 +17,7 @@ export const lookupIcon = (iconName: PossibleIcons, format: IconFormat = "solid"
   }
   if (format === "solid") {
     return solidLookup[iconName]
-  } else if(format =="mini") {
+  } else if (format == "mini") {
     return miniLookup[iconName]
   }
   return outlineLookup[iconName]
