@@ -38,7 +38,7 @@ To install the project you need to have `node` and `npm`
 > pull requests from branches on your fork. To do this, run:
 >
 > ```sh
-> git remote add upstream https://github.com/kefranabg/heroicons-react-lookup.git
+> git remote add upstream https://github.com/aexei/heroicons-react-lookup.git
 > git fetch upstream
 > git branch --set-upstream-to=upstream/main main
 > ```
