@@ -1,6 +1,6 @@
 {
   "name": "heroicons-react-lookup",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A utility library for react projects to lookup TailwindCSS Heroicons by their name.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
